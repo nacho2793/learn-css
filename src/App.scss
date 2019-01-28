@@ -1,4 +1,18 @@
+@import './styles/colors';
+
 .learn-css {
   display: inline-block;
   vertical-align: top;
+}
+
+.component {
+  margin: 1rem;
+
+  h1 {
+    color: color(chathams-blue);
+  }
+
+  h2 {
+    color: rgba(color(chathams-blue), .8);
+  }
 }
