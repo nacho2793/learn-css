@@ -1,0 +1,23 @@
+@import '../../../styles/colors';
+
+.learn-css-header {
+  text-align: left;
+  background-color: color(chathams-blue);
+  color: color(white);
+  padding: .5rem 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(black, .5);
+
+  &::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: color(nextiva-yellow);
+    left: 4.3rem;
+  }
+}

@@ -1,0 +1,26 @@
+@import '../../../styles/colors';
+
+.side-nav {
+  background-color: rgba(color(nav-blue), .8);
+  color: color(white);
+  display: inline-block;
+  height: calc(100vh - 47px);
+  min-width: 12rem;
+  font-weight: 400;
+  
+  ul {
+    list-style-type: none;
+    
+    li {
+      margin: 1rem 0;
+      padding: .5rem 1rem;
+      cursor: pointer;
+      transition: background-color .2s ease;
+      text-shadow: -1px -1px 5px black;
+      
+      &:hover {
+        background-color: rgba(color(nav-blue), 1);
+      }
+    }
+  }
+}
